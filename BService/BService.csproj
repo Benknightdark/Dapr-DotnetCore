@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+      <PackageReference Include="Dapr.AspNetCore" Version="0.1.0-preview02" />
+
   </ItemGroup>
 
 </Project>
