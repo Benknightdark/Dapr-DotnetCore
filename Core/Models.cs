@@ -1,4 +1,4 @@
-namespace AService.Models
+namespace Core
 {
     using System.ComponentModel.DataAnnotations;
 

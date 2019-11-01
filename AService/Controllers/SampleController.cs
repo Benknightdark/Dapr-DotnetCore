@@ -1,6 +1,6 @@
 namespace AService.Controllers {
     using System.Threading.Tasks;
-    using AService.Models;
+    using Core;
     using Dapr;
     using Microsoft.AspNetCore.Mvc;
  /// <summary>
