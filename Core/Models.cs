@@ -1,12 +1,10 @@
-namespace Core
-{
+namespace Core {
     using System.ComponentModel.DataAnnotations;
 
     /// <summary>
     /// Represents a transaction used by sample code.
     /// </summary>
-    public class Transaction
-    {
+    public class Transaction {
         /// <summary>
         /// Gets or sets account id for the transaction.
         /// </summary>
@@ -16,14 +14,14 @@ namespace Core
         /// <summary>
         /// Gets or sets amount for the transaction.
         /// </summary>
-        [Range(0, double.MaxValue)]
+        [Range (0, double.MaxValue)]
         public decimal Amount { get; set; }
     }
-     /// <summary>
+    /// <summary>
     /// Class representing an Account for samples.
     /// </summary>
-    public class Account
-    {
+
+    public class Account {
         /// <summary>
         /// Gets or sets account id.
         /// </summary>
@@ -34,4 +32,5 @@ namespace Core
         /// </summary>
         public decimal Balance { get; set; }
     }
+
 }
